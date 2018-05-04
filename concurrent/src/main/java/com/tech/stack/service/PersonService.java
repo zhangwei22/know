@@ -18,7 +18,7 @@ public class PersonService {
         person.setAge(23);
         //模拟后端的处理时间
         try {
-            Thread.sleep(2000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

@@ -21,6 +21,8 @@ public class TokenCheckController {
     /**
      * 用token来解决用户请求重复提交
      * token可以是userId加盐
+     *
+     * 给一篇jmeter的并发请求操作文章：https://blog.csdn.net/cbzcbzcbzcbz/article/details/78023327
      */
     @ResponseBody
     @RequestMapping("getPersonData")
@@ -34,10 +36,13 @@ public class TokenCheckController {
             return person;
         }
         RedisUtils.tokenMap.put(token, token);
-        System.out.println(Thread.currentThread().getName() + "executor start");
+        System.out.println(
+                Thread.currentThread().getName() + "executor start. current time:" + System
+                        .currentTimeMillis());
         //模拟后端的处理时间
         person = personService.getPersonById(id);
-        System.out.println(Thread.currentThread().getName() + "executor end");
+        System.out.println(Thread.currentThread().getName() + "executor end. current time:" + System
+                .currentTimeMillis());
         RedisUtils.tokenMap.remove(token);
         return person;
     }
