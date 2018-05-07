@@ -10,7 +10,6 @@
     <packaging>pom</packaging>
 
     <name>know</name>
-    <description></description>
 
     <modules>
         <module>reflection</module>
