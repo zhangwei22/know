@@ -16,6 +16,9 @@
         <module>freemarker</module>
         <module>concurrent</module>
         <module>jsp</module>
+        <module>jfreechart</module>
+        <module>thymeleaf</module>
+        <module>mybatis</module>
     </modules>
 
     <parent>
