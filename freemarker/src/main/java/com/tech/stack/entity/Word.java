@@ -1,4 +1,4 @@
-package com.tech.stack.entiry;
+package com.tech.stack.entity;
 
 /**
  * Created by zhangwei on 2018/5/4.

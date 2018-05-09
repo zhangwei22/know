@@ -1,7 +1,6 @@
 package com.tech.stack.controller;
 
-import com.alibaba.druid.util.StringUtils;
-import com.tech.stack.entiry.Word;
+import com.tech.stack.entity.Word;
 import com.tech.stack.service.WordService;
 import com.tech.stack.util.WordUtils;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
 package com.tech.stack.service;
 
-import com.tech.stack.entiry.Word;
+import com.tech.stack.entity.Word;
 import org.springframework.stereotype.Service;
 
 /**

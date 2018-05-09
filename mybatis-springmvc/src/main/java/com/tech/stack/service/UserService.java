@@ -1,6 +1,8 @@
 package com.tech.stack.service;
 
+import com.tech.stack.dao.UserDao;
 import com.tech.stack.entity.User;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -9,16 +11,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserService {
 
-//    @Autowired
-//    private UserDao userDao;
+    @Autowired
+    private UserDao userDao;
 
     public User getUser() {
-        User user = new User();
-        user.setId(123L);
-        user.setName("zhangwei");
-        user.setAge(26);
-        user.setSex("男");
-        //        return userDao.getUser();
+        User user = userDao.getUser();
         return user;
     }
 }
