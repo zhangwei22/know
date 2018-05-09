@@ -10,7 +10,6 @@
     <packaging>war</packaging>
 
     <name>jsp</name>
-    <description></description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

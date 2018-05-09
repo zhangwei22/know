@@ -10,7 +10,6 @@
     <packaging>war</packaging>
 
     <name>log4j2</name>
-    <description></description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -9,7 +9,6 @@
 	<packaging>war</packaging>
 
 	<name>concurrent</name>
-	<description></description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
