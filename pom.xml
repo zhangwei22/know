@@ -21,6 +21,7 @@
         <module>mybatis</module>
         <module>log4j2</module>
         <module>mybatis-springmvc</module>
+        <module>transactional</module>
     </modules>
 
     <parent>
