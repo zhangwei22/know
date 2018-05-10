@@ -117,4 +117,16 @@ public class TransactionalService {
         return paramMap;
     }
 
+    /**
+     * 方法A和方法B出现不同的异常又会出现什么
+     * */
+
+    /**
+     * 方法A和方法B不同的事务隔离级别又会出现什么
+     * */
+
+    /**
+     * 什么是分布式事务
+     * */
+
 }
