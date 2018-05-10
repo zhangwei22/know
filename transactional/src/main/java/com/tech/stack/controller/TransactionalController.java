@@ -48,4 +48,14 @@ public class TransactionalController {
         Map<String, Object> result = transactionalService.testPrivateInnerInvoke();
         return result;
     }
+
+    /**
+     * 测试事务方法嵌套
+     */
+    @ResponseBody
+    @RequestMapping("testNestTransactional")
+    public Object testNestTransactional() {
+        Map<String, Object> result = transactionalService.testNestTransactional();
+        return result;
+    }
 }
