@@ -15,10 +15,9 @@ import org.jfree.data.category.DefaultCategoryDataset;
 import java.awt.*;
 
 /**
- * Created by zhangwei on 2018/5/7.
+ * Created by zhangwei on 2018/5/11.
  */
 public class LineChartUtils {
-
     private static CategoryDataset createDataset() {
         DefaultCategoryDataset localDefaultCategoryDataset = new DefaultCategoryDataset();
         //第一条折线数据 折线名Series 1
@@ -127,5 +126,4 @@ public class LineChartUtils {
 
         return localJFreeChart;
     }
-
 }
