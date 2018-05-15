@@ -15,9 +15,7 @@ public class MainTest {
         Map<String, Object> map = new HashMap();
         map.put("cityId", 483);
         try {
-            String result = HttpClientUtils
-                    .sendPost("", map,
-                            "");
+            String result = HttpClientUtils.sendPost("", map, "");
             System.out.println("resultStr:" + result);
             JSONObject obj = JSONObject.parseObject(result);
             JSONObject json = JSONObject.parseObject(obj.toString());
