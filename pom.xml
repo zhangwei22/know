@@ -23,6 +23,7 @@
         <module>mybatis-springmvc</module>
         <module>transactional</module>
         <module>http</module>
+        <module>annotation</module>
     </modules>
 
     <parent>
