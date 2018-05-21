@@ -24,6 +24,7 @@
         <module>transactional</module>
         <module>http</module>
         <module>annotation</module>
+        <module>exception</module>
     </modules>
 
     <parent>
