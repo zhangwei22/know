@@ -1,4 +1,4 @@
-#jsp
+# jsp
 springboot集成jsp   
 springboot虽然支持jsp，但是官网不推荐使用。看网上说jsp是淘汰的技术了
 
