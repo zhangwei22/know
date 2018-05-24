@@ -16,7 +16,7 @@ public class AnimalController {
     /**
      * 如果接口有多个实现类，需要指定参数来选择具体实现类
      */
-    @Resource(name = "catServiceImpl")
+    @Resource(name = "dogServiceImpl")
     private AnimalService animalService;
 
     @ResponseBody

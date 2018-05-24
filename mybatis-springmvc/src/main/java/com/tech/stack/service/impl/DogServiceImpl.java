@@ -8,8 +8,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class DogServiceImpl implements AnimalService {
-    @Override
     public String sayHello() {
-        return "Hello, I'm dogService!";
+        return "Hello, I'm dog service!";
     }
 }
