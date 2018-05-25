@@ -28,11 +28,6 @@ public class AutowriedVsNewController {
         final CountDownLatch countDownLatch = new CountDownLatch(loopCount);
         long startT = System.currentTimeMillis();
         for (int i = 0; i < loopCount; i++) {
-            try {
-                Thread.sleep(10);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
             new Thread() {
                 @Override
                 public void run() {
