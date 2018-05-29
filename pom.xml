@@ -25,6 +25,7 @@
         <module>http</module>
         <module>annotation</module>
         <module>exception</module>
+        <module>designpattern</module>
     </modules>
 
     <parent>
