@@ -2,8 +2,8 @@ package com.tech.stack.singleton;
 
 /**
  * Created by zhangwei on 2018/5/29.
- *
- * @desc 单例模式：双重校验
+ * <p>
+ * 单例模式：双重校验
  */
 public class DoubleCheck {
     //为了防止JVM的即时编译器进行指令重排序优化，而导致双重检查锁失效，需要添加volatile关键字
