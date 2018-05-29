@@ -6,6 +6,7 @@ package com.tech.stack.singleton;
  * @desc 单例模式：双重校验
  */
 public class DoubleCheck {
+    //为了防止JVM的即时编译器进行指令重排序优化，而导致双重检查锁失效，需要添加volatile关键字
     private volatile static DoubleCheck instance;
 
     //防止在外面以new的方式创建对象
