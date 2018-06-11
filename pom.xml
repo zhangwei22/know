@@ -27,6 +27,7 @@
         <module>exception</module>
         <module>designpattern</module>
         <module>redis</module>
+        <module>time</module>
     </modules>
 
     <parent>
