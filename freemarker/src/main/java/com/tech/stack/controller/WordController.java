@@ -46,4 +46,19 @@ public class WordController {
             e.printStackTrace();
         }
     }
+
+    @ResponseBody
+    @RequestMapping("exportWord2")
+    public void exportWord2(HttpServletRequest request, HttpServletResponse response, Long id) {
+        Map<String, Object> paramMap = new HashMap();
+        paramMap.put("id", 12345);
+        paramMap.put("name", "张三");
+        paramMap.put("age", 25);
+        paramMap.put("sex", "男");
+        try {
+            WordUtils.exportMillCertificateWord(request, response, paramMap, "方案2", "temp2.html");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
