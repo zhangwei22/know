@@ -20,7 +20,6 @@ public class WordUtils {
     //这里注意的是利用WordUtils的类加载器动态获得模板文件的位置
     private static final String templateFolder =
             WordUtils.class.getClassLoader().getResource("./").getPath() + "templates";
-    //    private static final String templateFolder = "/Users/zhangwei/Documents/ideaworkspace/know/freemarker/src/main/resources/templates";
 
     static {
         configuration = new Configuration();
