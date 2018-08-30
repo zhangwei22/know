@@ -1,5 +1,6 @@
 package com.tech.stack.controller;
 
+import com.tech.stack.entity.TestBean;
 import com.tech.stack.exception.MyException;
 import com.tech.stack.exception.MyRuntimeException;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -24,5 +25,23 @@ public class ExceptionController {
 
         System.out.println("enter id=" + id);
         return "SUCCESS!";
+    }
+
+    /**
+     * 如果需要分类处理，则需要细分子异常
+     * 否则可以直接抛Exception
+     */
+    public static void main(String[] args) {
+        try {
+            //            double res = 10 / 0;
+            TestBean testBean = null;
+            String name = testBean.getName();
+        } catch (ArithmeticException e0) {
+            e0.printStackTrace();
+        } catch (NullPointerException e1) {
+            e1.printStackTrace();
+        } catch (Exception e2) {
+            e2.printStackTrace();
+        }
     }
 }
