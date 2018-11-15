@@ -28,6 +28,7 @@
         <module>designpattern</module>
         <module>redis</module>
         <module>time</module>
+        <module>emailsender</module>
     </modules>
 
     <parent>
