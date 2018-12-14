@@ -15,7 +15,8 @@ public class EmailsenderApplication implements InitializingBean {
     private static List<String> toList = new ArrayList<>();
 
     static {
-        toList.add("xxx@qq.com");
+        toList.add("928241517@qq.com");
+        toList.add("965534998@qq.com");
     }
 
     @Autowired
