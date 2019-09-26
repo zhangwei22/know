@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by zhangwei on 2018/5/21.
  * <p>
  * 测试自定义注解@MyLog
+ * http://127.0.0.1:8080/annotation/index
  * </p>
  */
 @RestController

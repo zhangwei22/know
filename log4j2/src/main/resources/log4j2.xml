@@ -7,8 +7,8 @@
             </PatternLayout>
         </Console>
         <!-- 按日期每天生成log文件 -->
-        <RollingFile name="RollingFile" fileName="/var/logs/ads58.log"
-                     filePattern="temp/ads58-%d{yyyy-MM-dd}.log">
+        <RollingFile name="RollingFile" fileName="/Users/zhangwei/logs/ads58.log"
+                     filePattern="/Users/zhangwei/logs/ads58-%d{yyyy-MM-dd}.log">
             <PatternLayout pattern="%d %p %C{1.} [%t] %m%n"/>
             <Policies>
                 <TimeBasedTriggeringPolicy interval="1"/>
